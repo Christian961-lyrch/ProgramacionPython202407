@@ -1,0 +1,29 @@
+def main():
+    
+    numero1 = float(input("Ingrese el primer número: "))
+    numero2 = float(input("Ingrese el segundo número: "))
+    
+    
+    print("Seleccione la operación que quiere realizar:")
+    print("1. Suma de los dos números")
+    print("2. Resta del primer número menos el segundo número")
+    print("3. Multiplicación de los dos números")
+    
+    
+    opcion = input("Ingrese el número de la opción deseada 1 o 2 o 3: ")
+    
+    
+    if opcion == '1':
+        suma = numero1 + numero2
+        print(f"La suma de {numero1} y {numero2} es: {suma}")
+    elif opcion == '2':
+        resta = numero1 - numero2
+        print(f"La resta de {nummero1} menos {numero2} es: {resta}")
+    elif opcion == '3':
+        multiplicacion = nummero1 * numero2
+        print(f"El producto de {numero1} y {numero2} es: {multiplicacion}")
+    else:
+        print("Opción inválida. Por favor ingrese 1, 2 o 3 para seleccionar una operación válida.")
+
+if __name__ == "__main__":
+    main()

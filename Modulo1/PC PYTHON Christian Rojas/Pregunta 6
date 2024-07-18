@@ -1,0 +1,17 @@
+def main():
+    
+    edad_usuario = int(input("Ingrese de su edad por favor: "))
+    
+    
+    if edad_usuario < 4:
+          precio_entrada = 0
+    elif 4 <= edad_usuario <= 18:
+          precio_entrada = 5 
+    else:
+          precio_entrada = 10  
+    
+    
+    print(f"El precio de su entrada es la siguiente: s/.{precio_entrada}")
+
+if __name__ == "__main__":
+     main()

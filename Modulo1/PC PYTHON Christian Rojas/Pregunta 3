@@ -1,0 +1,14 @@
+
+def main():
+ 
+    total_muñecas = float(input("Por favor, ingrese el número de muñecas a enviar : "))
+    total_payazos = float(input("Por favor, ingrese el número de muñecas a enviar : "))
+
+    
+
+    Peso_total_equipaje = ((total_muñecas*75) + (total_payazos*112))/1000
+
+    print(f"El peso total del envio entre muñecas y payazos es:{Peso_total_equipaje: .2f} Kg")
+
+if __name__ == "__main__":
+    main()

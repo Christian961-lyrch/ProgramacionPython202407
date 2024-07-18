@@ -1,0 +1,10 @@
+def main():
+ 
+    Cantidad_numeros_sumar = float(input("Por favor, ingrese un número entero, ya que sumaremos los primeros N número que introduzca : "))
+  
+    Suma_de_los_N_primeros_numeros= (Cantidad_numeros_sumar* (Cantidad_numeros_sumar+1))/2
+
+    print(f"La suma de los N primeros números introducidos es el siguiente { Suma_de_los_N_primeros_numeros} ")
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,8 @@
+def main ():
+
+    show_musicales_vistos = float(input("Por favor, indicar el número de shows musicales que haya asistido :"))
+    show_musicales_mayor_a_3 = show_musicales_vistos > 3
+
+    print (f"¿Es verdad que el usuario ha visto más de tres (3) shows en este año: {show_musicales_mayor_a_3}")
+if __name__ == "__main__":
+    main()

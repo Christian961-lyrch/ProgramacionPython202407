@@ -1,0 +1,11 @@
+def main():
+    
+    secuencia = ['Rojo', 'Verde', 'Blanco', 'Negro', 'Rosa', 'Amarillo']
+    posiciones_eliminar = [0, 4, 5]
+    secuencia_filtrada = [secuencia[i] for i in range(len(secuencia)) if i not in posiciones_eliminar]
+    
+   
+    print("Resultado esperado:", secuencia_filtrada)
+
+if __name__ == "__main__":
+    main()

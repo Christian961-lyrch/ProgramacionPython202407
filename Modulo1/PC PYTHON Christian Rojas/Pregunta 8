@@ -1,0 +1,24 @@
+def main():
+    
+    hora = input("Por favor, ingrese la hora en formato HH:MM (por ejemplo, 21:14): ")
+    
+   
+    try:
+        hora_minuto, minutos = map(int, hora.split(':'))
+    except ValueError:
+        print("El formato ingresado es  de hora incorrecto. Debe ser HH:MM.")
+        return
+    
+  
+    if 7 <= hora_minuto <= 8:
+        print("Es hora de desayunar.")
+    elif 12 <= hora_minuto <= 13:
+        print("Es hora de almorzar.")
+    elif 18 <= hora_minuto <= 19:
+        print("Es hora de cenar.")
+    else:
+       
+        pass # un caso alternativo sería el siguente :print ("No es hora de comer")
+
+if __name__ == "__main__":
+    main()

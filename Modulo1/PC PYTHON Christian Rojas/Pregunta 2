@@ -1,0 +1,12 @@
+
+def main():
+ 
+    total_cuenta = float(input("Por favor, ingrese el monto a pagar: "))
+    porcentaje_propina =float (input("¿ Qué porcenaje de propina desea dejar: (Recuerdo que la propina debe ser mayor a 15%)"))
+
+    total_propina = total_cuenta*porcentaje_propina/100
+
+    print(f"El porcentaje de dinero que dejará es el siguiente :{total_propina: .2f} S/.")
+
+if __name__ == "__main__":
+    main()
